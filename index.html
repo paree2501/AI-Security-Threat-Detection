@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Security — Threat Detection &amp; Incident Analysis</title>
+    <meta name="description" content="Defensive cybersecurity monitoring and incident analysis platform with rule-based threat detection, anomaly scoring, and AI-assisted investigation." />
+    <meta property="og:title" content="AI Security — Threat Detection &amp; Incident Analysis" />
+    <meta property="og:description" content="Defensive cybersecurity monitoring and incident analysis platform with rule-based threat detection, anomaly scoring, and AI-assisted investigation." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Gracefully prevent unhandled WebSocket rejections in environments where HMR is disabled
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event.reason && (event.reason.message?.includes('WebSocket') || String(event.reason).includes('WebSocket'))) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
